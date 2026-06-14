@@ -1,0 +1,180 @@
+FIRST COMMUNITY BANK
+FAIR LENDING AND EQUAL CREDIT OPPORTUNITY ACT COMPLIANCE POLICY
+
+Policy Number: FL-002
+Effective Date: January 1, 2025
+Last Reviewed: January 1, 2026
+Approved By: Chief Compliance Officer and Chief Credit Officer
+Next Review Date: January 1, 2027
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+SECTION 1: PURPOSE AND SCOPE
+
+1.1 Purpose
+This policy establishes First Community Bank's commitment to fair, equitable, and non-discriminatory lending practices in compliance with the Equal Credit Opportunity Act (ECOA), Regulation B, the Fair Housing Act (FHA), and the Home Mortgage Disclosure Act (HMDA).
+
+1.2 Scope
+This policy applies to all credit products offered by the Bank, including:
+- Residential mortgage loans
+- Home equity loans and lines of credit
+- Consumer installment loans
+- Small business loans
+- Agricultural loans
+- Commercial real estate loans
+
+1.3 Regulatory Framework
+- Equal Credit Opportunity Act (15 U.S.C. § 1691 et seq.)
+- Regulation B (12 C.F.R. Part 1002) — CFPB
+- Fair Housing Act (42 U.S.C. §§ 3601-3619)
+- Home Mortgage Disclosure Act (12 U.S.C. § 2801 et seq.)
+- Regulation C (12 C.F.R. Part 1003) — CFPB
+- Community Reinvestment Act (12 U.S.C. § 2901 et seq.)
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+SECTION 2: PROHIBITED BASES FOR DISCRIMINATION
+
+2.1 Prohibited Bases Under ECOA/Regulation B
+The Bank shall not discriminate against any credit applicant on the basis of:
+- Race or color
+- Religion
+- National origin
+- Sex (including gender identity and sexual orientation)
+- Marital status
+- Age (provided the applicant has legal capacity to contract)
+- The applicant's receipt of income from public assistance programs
+- The applicant's exercise of rights under the Consumer Credit Protection Act
+- Familial status (FHA only — applicable to residential mortgage lending)
+- Disability (FHA only)
+
+2.2 Disparate Treatment
+The Bank shall not treat applicants differently based on any prohibited basis, whether intentionally or through facially neutral policies that have a disparate impact.
+
+2.3 Discouragement of Applications
+The Bank shall not discourage applicants from applying for credit on any prohibited basis, including through:
+- Steering applicants to less favorable products
+- Providing less information or assistance
+- Expressing a preference or limitation based on prohibited characteristics
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+SECTION 3: CREDIT UNDERWRITING STANDARDS
+
+3.1 Uniform Application of Standards
+The Bank shall apply the same underwriting criteria to all similarly situated applicants regardless of any prohibited basis.
+
+3.2 Permitted Factors in Credit Decisions
+The following factors are permitted in credit decisions:
+- Credit history and credit score
+- Income, employment, and assets
+- Debt-to-income ratio
+- Collateral value and loan-to-value ratio
+- Purpose of the loan
+
+3.3 Special Purpose Credit Programs (SPCP)
+The Bank may offer Special Purpose Credit Programs to meet special social needs, provided such programs comply with Regulation B § 1002.8, including:
+- Written program plan
+- Specific class of persons to be benefited
+- Terms no more favorable than necessary
+Board approval required before implementation of any SPCP.
+
+3.4 Pricing Consistency
+Loan pricing shall be based on objective, risk-based criteria documented in writing. Loan officers may deviate from standard pricing only within established exception procedures, subject to fair lending review.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+SECTION 4: ADVERSE ACTION NOTICES
+
+4.1 Required Notices
+The Bank shall provide written adverse action notices as required by ECOA and Regulation B within required timeframes:
+- Completed application: within 30 days
+- Incomplete application: within 30 days of receiving an incomplete application
+- Counteroffer not accepted: within 90 days
+
+4.2 Notice Content
+Adverse action notices shall include:
+- Statement that credit was denied
+- Name and address of creditor
+- Principal reasons for adverse action (minimum 4, maximum specified by regulation)
+- ECOA notice (right to know reasons)
+- Credit score information (if applicable)
+- Credit reporting agency information (if applicable)
+
+4.3 Medical Information
+The Bank shall not use medical information in credit decisions except as specifically permitted under Regulation B.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+SECTION 5: HOME MORTGAGE DISCLOSURE ACT (HMDA) COMPLIANCE
+
+5.1 Data Collection Requirements
+For covered mortgage loan applications, the Bank shall collect and record required HMDA data points including:
+- Applicant demographic information (ethnicity, race, sex, age, income)
+- Loan characteristics (amount, type, purpose, lien status)
+- Property information (location, type, value)
+- Action taken and date
+
+5.2 Data Integrity
+The Bank shall maintain data quality controls to ensure HMDA data accuracy, including:
+- Automated data validation at point of entry
+- Annual data scrub process before LAR submission
+- Testing for data completeness and consistency
+
+5.3 Annual Reporting
+The Bank shall submit its annual Loan Application Register (LAR) to the CFPB by March 1 each year for the prior calendar year.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+SECTION 6: SMALL BUSINESS LENDING DATA (SECTION 1071)
+
+6.1 Section 1071 Compliance
+[PLACEHOLDER — Section 1071 implementation rules pending final effective dates]
+The Bank shall monitor CFPB rulemaking under Dodd-Frank Section 1071 regarding small business lending data collection and update this policy section upon final rule implementation.
+
+6.2 Anticipated Requirements
+Section 1071 will require collection of demographic and credit information for covered small business credit applications, similar to HMDA for mortgage lending. The Bank's compliance date will be determined by its annual small business loan originations.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+SECTION 7: FAIR LENDING MONITORING AND TESTING
+
+7.1 Annual Fair Lending Analysis
+The Bank shall conduct an annual fair lending analysis including:
+- Statistical analysis of approval and denial rates by prohibited basis
+- Pricing analysis comparing similarly situated borrowers
+- Geographic analysis of lending patterns (CRA Assessment Area)
+- HMDA peer comparison
+
+7.2 Comparative File Review
+At least annually, the Bank shall conduct a comparative file review of credit decisions to identify potential disparate treatment.
+
+7.3 Mystery Shopping
+The Bank may conduct periodic mystery shopping to test for potential discouragement of applicants.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+SECTION 8: TRAINING
+
+8.1 Required Training
+All consumer-facing employees, loan officers, and credit personnel shall receive fair lending training:
+- At hire: within 60 days
+- Annual refresher: each calendar year
+
+8.2 Training Topics
+- Prohibited bases for discrimination
+- Recognizing and avoiding disparate treatment
+- HMDA data collection accuracy
+- Adverse action notice requirements
+- Special purpose credit programs
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+POLICY APPROVAL
+
+Approved: Chief Compliance Officer / Chief Credit Officer
+Date: January 1, 2026
+Board Acknowledgment: January 15, 2026
+
+This policy supersedes all prior fair lending policies.
+Next scheduled review: January 1, 2027

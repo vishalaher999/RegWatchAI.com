@@ -1,0 +1,25 @@
+# Render Blueprint (Day 40, KM #229 Docker / deploy target from CLAUDE.md).
+#
+# Deploy: connect this repo at https://dashboard.render.com/blueprints and
+# Render reads this file automatically. See docs/Deployment-Guide-v1.md for
+# the full walkthrough, including environment variables that must be set
+# manually (API keys are never committed -- .env stays local/gitignored).
+
+services:
+  - type: web
+    name: regwatch-api
+    runtime: docker
+    dockerfilePath: ./Dockerfile
+    plan: free
+    healthCheckPath: /health
+    envVars:
+      - key: DATABASE_URL
+        value: sqlite:///./regwatch.db
+      - key: ANTHROPIC_API_KEY
+        sync: false
+      - key: LANGCHAIN_API_KEY
+        sync: false
+      - key: LANGCHAIN_PROJECT
+        value: regwatch-ai
+      - key: LANGCHAIN_TRACING_V2
+        value: "true"

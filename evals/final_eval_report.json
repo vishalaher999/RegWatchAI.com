@@ -1,0 +1,65 @@
+{
+  "generated_at": "2026-06-13T19:07:40.226616",
+  "eval_label": "Day 44 final eval (KM #258)",
+  "golden_set_path": "fixtures/golden/summaries.json",
+  "golden_set_size": 50,
+  "roadmap_target_golden_examples": 100,
+  "summaries_found": 20,
+  "summaries_missing": 30,
+  "metrics": {
+    "faithfulness": 0.783,
+    "hallucination_rate": 0.05,
+    "answer_relevance": 0.792,
+    "date_accuracy": 1.0,
+    "institution_accuracy": 0.817,
+    "routing_accuracy": 0.8,
+    "no_action_accuracy": 0.95,
+    "what_changed_quality": 0.0
+  },
+  "targets": {
+    "faithfulness_week3": 0.75,
+    "faithfulness_day45": 0.85
+  },
+  "faithfulness_passes_week3_target": true,
+  "faithfulness_passes_day45_target": false,
+  "by_difficulty": {
+    "easy": {
+      "count": 12,
+      "faithfulness": 0.806,
+      "answer_relevance": 0.844
+    },
+    "medium": {
+      "count": 7,
+      "faithfulness": 0.771,
+      "answer_relevance": 0.708
+    },
+    "hard": {
+      "count": 1,
+      "faithfulness": 0.6,
+      "answer_relevance": 0.75
+    }
+  },
+  "by_doc_type": {
+    "guidance": {
+      "count": 1,
+      "faithfulness": 0.75,
+      "answer_relevance": 0.625
+    },
+    "enforcement": {
+      "count": 4,
+      "faithfulness": 0.838,
+      "answer_relevance": 0.844
+    },
+    "other": {
+      "count": 15,
+      "faithfulness": 0.771,
+      "answer_relevance": 0.789
+    }
+  },
+  "notes": [
+    "Golden set (fixtures/golden/summaries.json) has 50 hand-labeled entries, not the 100 named in the v2.2 roadmap KM #258 -- expanding to 100 would require labeling 50 more documents by hand (labeling_method: hand-labeled by reading actual document content from DB), which was not done this session.",
+    "Of the 50 golden entries, 20 have a matching SUMMARISED RegulatoryDocument with summary_json in the dev DB (the other 30 golden entries reference documents that were never run through F2 in this dev environment).",
+    "Results are therefore identical to the Day 18 baseline (evals/baseline_report.json) computed on the first 30 entries -- the additional 20 golden entries (31-50) all fall in the summaries_missing set.",
+    "Faithfulness 0.783 clears the Week 3 target (>=0.75) but remains below the Day 45 target (>=0.85), consistent with docs/Product-Roadmap-3-6-12.md and docs/Case-Study-v1.md."
+  ]
+}

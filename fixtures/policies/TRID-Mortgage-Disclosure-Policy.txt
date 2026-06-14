@@ -1,0 +1,212 @@
+FIRST COMMUNITY BANK
+TILA-RESPA INTEGRATED DISCLOSURE (TRID) COMPLIANCE POLICY
+
+Policy Number: TRID-003
+Effective Date: January 1, 2025
+Last Reviewed: January 1, 2026
+Approved By: Chief Compliance Officer and Chief Lending Officer
+Next Review Date: January 1, 2027
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+SECTION 1: PURPOSE AND SCOPE
+
+1.1 Purpose
+This policy establishes First Community Bank's procedures for complying with the TILA-RESPA Integrated Disclosure (TRID) rule, which implements requirements under the Truth in Lending Act (TILA), the Real Estate Settlement Procedures Act (RESPA), and Regulation Z (12 C.F.R. Part 1026) and Regulation X (12 C.F.R. Part 1024).
+
+1.2 Scope
+This policy applies to all closed-end consumer credit transactions secured by real property, including:
+- Purchase money mortgages
+- Refinance loans
+- Construction loans (if applicable)
+- Home equity loans (not HELOCs — excluded from TRID)
+
+Excluded transactions:
+- Home Equity Lines of Credit (HELOCs) — subject to separate TILA disclosures
+- Reverse mortgages — subject to separate TILA requirements
+- Loans secured by vacant land (unless construction loan)
+- Commercial and investment property loans
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+SECTION 2: LOAN ESTIMATE REQUIREMENTS
+
+2.1 Triggering Events
+A Loan Estimate must be provided after receiving six pieces of information constituting an application:
+(1) Consumer's name
+(2) Consumer's income
+(3) Consumer's Social Security Number (for credit report)
+(4) Property address
+(5) Estimated value of the property
+(6) Loan amount
+
+2.2 Loan Estimate Timing
+The Loan Estimate shall be:
+- Delivered or placed in mail no later than three business days after receiving an application
+- Received by the consumer no later than seven business days before consummation
+
+2.3 Loan Estimate Content
+The Loan Estimate shall include:
+- General information (loan terms, projected payments, costs at closing)
+- Closing cost details (Loan Costs and Other Costs)
+- Calculating cash to close
+- Comparisons (APR, Total Interest Percentage)
+- Other considerations (appraisal, assumption, homeowner's insurance, late payments)
+- Contact information
+
+2.4 Good Faith Tolerance Standards
+The Bank shall comply with the following tolerance standards:
+
+Zero Tolerance Items (no increase permitted):
+- Transfer taxes
+- Fees paid to the creditor for required services with no choice
+- Third-party fees for services not on approved provider list
+- Recording fees
+
+10% Tolerance Items:
+- Recording fees (exception when aggregate tolerance applies)
+- Third-party fees for required services on approved provider list chosen by consumer
+- Prepaid interest, property insurance premiums, initial escrow payments
+- Charges for optional third-party services
+
+No Tolerance Items (may change):
+- Prepaid interest
+- Property insurance premiums
+- Initial escrow payment amounts
+- Homeowners association dues (paid at closing)
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+SECTION 3: CLOSING DISCLOSURE REQUIREMENTS
+
+3.1 Closing Disclosure Timing
+The Closing Disclosure shall be:
+- Received by the consumer no later than three business days before consummation
+- For mailing purposes, presumed received three business days after placing in mail
+
+3.2 Closing Disclosure Content
+The Closing Disclosure mirrors the Loan Estimate format and includes final figures for all costs, loan terms, and cash to close.
+
+3.3 Revised Closing Disclosure
+A revised Closing Disclosure is required if, before consummation:
+- APR becomes inaccurate (exceeds tolerance)
+- Loan product changes
+- Prepayment penalty is added
+
+A revised Closing Disclosure requires an additional three business day waiting period.
+
+3.4 Changes After Consummation
+Post-consummation corrections to Closing Disclosures shall be handled pursuant to Regulation Z § 1026.19(f)(2) procedures.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+SECTION 4: REVISED LOAN ESTIMATE
+
+4.1 Permissible Changed Circumstances
+A revised Loan Estimate may be issued only upon occurrence of a valid changed circumstance:
+- Extraordinary event beyond the Bank's control
+- Information specific to the consumer/transaction that was inaccurate or changed
+- New information not previously available
+- Delay in settlement (under certain conditions)
+- Rate locks
+- Consumer requests changes to credit terms
+
+4.2 Revised Loan Estimate Timing
+A revised Loan Estimate shall be delivered within three business days of receiving information supporting a changed circumstance, and no later than four business days before consummation.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+SECTION 5: ESCROW DISCLOSURES AND ACCOUNT MANAGEMENT
+
+5.1 Escrow Disclosure Requirements
+For escrow accounts, the Bank shall provide:
+- Initial Escrow Account Disclosure Statement at consummation
+- Annual Escrow Account Analysis and Statement
+
+5.2 Escrow Account Computation Year
+The Bank shall conduct an annual escrow analysis for each escrowed loan to determine:
+- Whether a surplus, shortage, or deficiency exists
+- The adjusted monthly escrow payment for the coming year
+
+5.3 Surplus, Shortage, Deficiency
+- Surplus ≥ $50: Refund within 30 days of analysis
+- Shortage: May collect over 12 months if shortage ≤ 1/12 monthly payment; otherwise spread over longer period
+- Deficiency: Bank may collect in two months; shortage notice procedures apply
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+SECTION 6: LOAN OFFICER AND PROCESSOR PROCEDURES
+
+6.1 Loan Origination System Configuration
+The Bank's loan origination system (LOS) shall be configured to:
+- Automatically generate Loan Estimates upon application receipt
+- Calculate and monitor tolerance thresholds
+- Generate alerts when revised disclosures may be required
+- Track all disclosure delivery dates and methods
+
+6.2 Loan Officer Responsibilities
+Loan officers are responsible for:
+- Collecting complete application information before triggering disclosures
+- Not discouraging applications based on protected characteristics
+- Accurately estimating fees and costs on the Loan Estimate
+- Documenting changed circumstances before issuing revised Loan Estimates
+
+6.3 Closing/Disclosure Coordinator
+The Bank shall designate a TRID compliance coordinator responsible for:
+- Reviewing all Closing Disclosures before delivery
+- Monitoring consummation dates and waiting periods
+- Maintaining a disclosure log for each loan
+- Resolving tolerance cure procedures
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+SECTION 7: TOLERANCE CURE PROCEDURES
+
+7.1 Cure of Good Faith Violations
+The Bank may cure a violation of the good faith requirement by refunding to the consumer the amount by which the tolerance was exceeded, at or before consummation or within 60 calendar days after consummation.
+
+7.2 Cure Documentation
+All tolerance cures shall be documented, including:
+- Original and actual fee amounts
+- Cure amount
+- Date of refund
+- Method of refund
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+SECTION 8: RECORDKEEPING
+
+8.1 Retention Requirements
+The Bank shall retain all TRID-related records for three years from the date of consummation or from the date of disclosures (whichever is longer), including:
+- All versions of Loan Estimates and Closing Disclosures
+- Evidence of delivery (delivery confirmation, mailing receipts)
+- Documentation of changed circumstances for revised Loan Estimates
+- Escrow account disclosures and analyses
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+SECTION 9: TRAINING AND COMPLIANCE TESTING
+
+9.1 Required Training
+All mortgage loan officers, processors, closers, and compliance staff shall receive TRID training:
+- At hire: within 30 days
+- Annual refresher: each calendar year
+- Regulatory updates: within 90 days of effective date
+
+9.2 Compliance Testing
+The Bank shall conduct quarterly file reviews of closed mortgage loans to test:
+- Timely delivery of Loan Estimates and Closing Disclosures
+- Accuracy of disclosures
+- Appropriate use of revised disclosures
+- Tolerance compliance
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+POLICY APPROVAL
+
+Approved: Chief Compliance Officer / Chief Lending Officer
+Date: January 1, 2026
+Board Acknowledgment: January 15, 2026
+
+This policy supersedes all prior TRID/RESPA/TILA disclosure policies.
+Next scheduled review: January 1, 2027

@@ -1,0 +1,36 @@
+# ── Core framework ────────────────────────────────────────────────────────────
+sqlmodel==0.0.21          # ORM: defines DB tables AND Pydantic schemas in one class
+python-dotenv==1.0.1      # Loads .env file into os.environ
+
+# ── F1 — Feed ingestion ───────────────────────────────────────────────────────
+feedparser==6.0.11        # Parses RSS/Atom feeds from agency websites
+httpx==0.27.0             # Async HTTP client (fetches Federal Register API)
+beautifulsoup4==4.14.3    # HTML parser — extracts full regulation text from agency pages
+streamlit==1.55.0         # Browser dashboard UI — no frontend build tooling required
+
+# ── F2 — Summarisation (added Day 8) ─────────────────────────────────────────
+anthropic==0.84.0         # Anthropic Claude API SDK — primary LLM for F2 summarisation
+sentence-transformers==5.5.1  # Local embedding models — dense retrieval for F2/F3 (no API cost)
+rank-bm25==0.2.2              # BM25 sparse retrieval — keyword matching half of hybrid search
+# langsmith                # Added Week 2 (Day 15)
+
+# ── F3 — Policy impact mapping (added Day 22) ─────────────────────────────────
+# sentence-transformers    # Dense embeddings
+# rank-bm25                # BM25 sparse retrieval
+# pdfplumber               # PDF text extraction
+# python-docx              # DOCX text extraction
+
+# ── F4 — Task generation (added Day 29) ───────────────────────────────────────
+langgraph==1.2.5           # Agent orchestration — ReAct loop for task-drafting agent (Day 31)
+langchain-anthropic==1.4.6 # ChatAnthropic model wrapper required by LangGraph's prebuilt ReAct agent
+
+# ── F5 — Audit & reporting (added Day 36) ────────────────────────────────────
+# reportlab                # PDF export
+
+# ── API layer (added Day 40, KM #227 FastAPI) ─────────────────────────────────
+fastapi==0.136.3          # API layer -- read-only endpoints over F1-F5 data
+uvicorn==0.49.0           # ASGI server
+
+# ── Dev / testing ─────────────────────────────────────────────────────────────
+pytest==8.2.2
+pytest-asyncio==0.23.7

@@ -1,0 +1,35 @@
+{
+  "agency_slug": "fed",
+  "agency_name": "Federal Reserve",
+  "fetched_at": "2026-06-01T09:00:00Z",
+  "entries": [
+    {
+      "title": "Federal Reserve Issues Final Rule on Capital Requirements for Large Banks",
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260601a.htm",
+      "published_date": "2026-06-01T08:00:00Z",
+      "raw_content": "The Federal Reserve Board on Monday issued a final rule that revises the capital framework for large banking organizations. The rule implements the Basel III endgame requirements and is effective January 1, 2027. Institutions with total assets of $100 billion or more are subject to the new requirements.",
+      "doc_type": "final_rule"
+    },
+    {
+      "title": "Federal Reserve Requests Comment on Proposed Rule Amending Regulation Z",
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260601b.htm",
+      "published_date": "2026-06-01T08:30:00Z",
+      "raw_content": "The Federal Reserve Board is requesting public comment on a proposed rule that would amend Regulation Z (Truth in Lending) to update disclosure requirements for adjustable-rate mortgages. Comments are due 60 days after publication in the Federal Register.",
+      "doc_type": "proposed_rule"
+    },
+    {
+      "title": "Supervisory Guidance on Management of Interest Rate Risk",
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260601c.htm",
+      "published_date": "2026-05-30T14:00:00Z",
+      "raw_content": "The federal banking agencies are issuing supervisory guidance to remind institutions of sound practices for managing interest rate risk. This guidance applies to all FDIC-supervised institutions and is effective immediately.",
+      "doc_type": "guidance"
+    },
+    {
+      "title": "Enforcement Action: Consent Order Issued to First Community Bank",
+      "url": "https://www.federalreserve.gov/apps/enforcementactions/enforcementactions/2026-06-01.htm",
+      "published_date": "2026-06-01T09:00:00Z",
+      "raw_content": "The Federal Reserve Board has issued a consent order to First Community Bank requiring corrective action for violations of the Bank Secrecy Act. The bank has agreed to enhance its AML compliance program and pay a civil money penalty of $1.2 million.",
+      "doc_type": "enforcement"
+    }
+  ]
+}

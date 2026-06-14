@@ -1,0 +1,13 @@
+[
+  {
+    "source_policy_name": "Fair-Lending-ECOA-Policy",
+    "source_section_id": "1.1",
+    "source_regulation_doc_id": "c5ba5ac6-a2ac-4522-a4b4-23c19d492dd3",
+    "source_regulation_title": "Equal Credit Opportunity Act (Regulation B)",
+    "source_impact_level": "high",
+    "title": "Fair-Lending-ECOA-Policy Section 1.1 - Equal Credit Opportunity Act (Regulation B) Update",
+    "description": "This policy section needs review due to significant changes in the legal landscape since the original ECOA framework was established. The regulation notes that \"The Bureau finds that there have been significant changes in the legal landscape and in credit markets since the 1976 Act\" and references evolving frameworks including the FHA, HMDA, and CRA. The current policy's purpose statement may need updating to reflect these regulatory developments and ensure alignment with current ECOA requirements.",
+    "owner": "Sarah",
+    "due_date": "2026-07-21"
+  }
+]

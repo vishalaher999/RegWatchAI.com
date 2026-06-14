@@ -1,0 +1,105 @@
+{
+  "generated_at": "2026-06-05T02:41:03.483548",
+  "total_entries": 30,
+  "summaries_found": 20,
+  "metrics": {
+    "faithfulness": 0.783,
+    "hallucination_rate": 0.05,
+    "answer_relevance": 0.792,
+    "date_accuracy": 1.0,
+    "institution_accuracy": 0.817,
+    "routing_accuracy": 0.8,
+    "no_action_accuracy": 0.95,
+    "what_changed_quality": 0.0
+  },
+  "targets": {
+    "faithfulness_week3": 0.75,
+    "faithfulness_day45": 0.85,
+    "hallucination_rate": 0.05
+  },
+  "pass": true,
+  "by_difficulty": {
+    "easy": {
+      "count": 12,
+      "faithfulness": 0.806,
+      "answer_relevance": 0.844
+    },
+    "medium": {
+      "count": 7,
+      "faithfulness": 0.771,
+      "answer_relevance": 0.708
+    },
+    "hard": {
+      "count": 1,
+      "faithfulness": 0.6,
+      "answer_relevance": 0.75
+    }
+  },
+  "by_doc_type": {
+    "enforcement": {
+      "count": 4,
+      "faithfulness": 0.838,
+      "answer_relevance": 0.844
+    },
+    "guidance": {
+      "count": 1,
+      "faithfulness": 0.75,
+      "answer_relevance": 0.625
+    },
+    "other": {
+      "count": 15,
+      "faithfulness": 0.771,
+      "answer_relevance": 0.789
+    }
+  },
+  "top_failures": [
+    {
+      "id": 19,
+      "title": "Federal Reserve Board issues Economic Well-Being of US House",
+      "faithfulness": 0.25,
+      "missing_facts": [
+        "Survey data on financial resilience and banking access",
+        "Research publication \u2014 no compliance requirements",
+        "Informational for CRA strategy"
+      ],
+      "hallucinations": [],
+      "notes": []
+    },
+    {
+      "id": 1,
+      "title": "Equal Credit Opportunity Act (Regulation B)",
+      "faithfulness": 0.6,
+      "missing_facts": [
+        "Amendments are largely deregulatory in nature",
+        "Effective date is July 21, 2026"
+      ],
+      "hallucinations": [],
+      "notes": [
+        "Wrong routing: expected review, got approved"
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Federal Reserve Board issues enforcement actions with former",
+      "faithfulness": 0.6,
+      "missing_facts": [
+        "Individuals permanently prohibited from banking",
+        "No institutional compliance action required"
+      ],
+      "hallucinations": [],
+      "notes": [
+        "Wrong routing: expected escalate, got approved"
+      ]
+    },
+    {
+      "id": 18,
+      "title": "Stephen I. Miran submits resignation as Fed Board member",
+      "faithfulness": 0.6666666666666666,
+      "missing_facts": [
+        "No banking regulatory implications"
+      ],
+      "hallucinations": [],
+      "notes": []
+    }
+  ]
+}

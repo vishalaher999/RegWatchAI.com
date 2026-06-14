@@ -1,0 +1,341 @@
+{
+  "_metadata": {
+    "description": "Golden labeled set for F3 impact classification eval (Day 26).",
+    "pair_count": 30,
+    "label_field": "true_impact_level",
+    "labeling_methodology": "v1 — Claude-as-labeler, NOT a compliance SME. Pairs sampled from data/f3_indexes/impact_results.json, stratified to cover: (a) clear true positives, (b) clear true negatives, (c) the Day 25 'Equal Credit Opportunity Act (Regulation B) / Agency Information Collection Activities over-matches generic compliance language across unrelated policies' finding, and (d) borderline mid-range scores. Each label includes a one-line rationale. PENDING: review by a compliance officer (Sarah persona) before this set is treated as production ground truth — SR 11-7 requires human validation of model eval data, not just the model.",
+    "dense_score_snapshot_note": "dense_score values are a snapshot from the Day 25 run of matches.json. The eval pipeline re-looks-up dense_score from the current matches.json at eval time — if re-running build_indexes/matcher changes embeddings/chunking, scores may drift slightly from this snapshot."
+  },
+  "pairs": [
+    {
+      "pair_id": 1,
+      "policy_name": "Fair-Lending-ECOA-Policy",
+      "section_id": "2.1",
+      "section_title": "Prohibited Bases Under ECOA/Regulation B",
+      "regulation_doc_id": "c5ba5ac6-a2ac-4522-a4b4-23c19d492dd3",
+      "regulation_title": "Equal Credit Opportunity Act (Regulation B)",
+      "dense_score_snapshot": 0.761,
+      "true_impact_level": "high",
+      "rationale": "Section is literally about ECOA/Reg B prohibited bases. Direct, substantive match."
+    },
+    {
+      "pair_id": 2,
+      "policy_name": "Fair-Lending-ECOA-Policy",
+      "section_id": "2.3",
+      "section_title": "Discouragement of Applications",
+      "regulation_doc_id": "c5ba5ac6-a2ac-4522-a4b4-23c19d492dd3",
+      "regulation_title": "Equal Credit Opportunity Act (Regulation B)",
+      "dense_score_snapshot": 0.761,
+      "true_impact_level": "high",
+      "rationale": "Discouragement is a named Reg B doctrine (the regulation text even cites the 7th Circuit discouragement case). Direct match."
+    },
+    {
+      "pair_id": 3,
+      "policy_name": "Fair-Lending-ECOA-Policy",
+      "section_id": "3.3",
+      "section_title": "Special Purpose Credit Programs (SPCP)",
+      "regulation_doc_id": "c5ba5ac6-a2ac-4522-a4b4-23c19d492dd3",
+      "regulation_title": "Equal Credit Opportunity Act (Regulation B)",
+      "dense_score_snapshot": 0.789,
+      "true_impact_level": "high",
+      "rationale": "SPCPs are a Reg B-defined exception to anti-discrimination rules. Direct match, highest dense_score in the corpus."
+    },
+    {
+      "pair_id": 4,
+      "policy_name": "Fair-Lending-ECOA-Policy",
+      "section_id": "8.2",
+      "section_title": "Training Topics",
+      "regulation_doc_id": "c5ba5ac6-a2ac-4522-a4b4-23c19d492dd3",
+      "regulation_title": "Equal Credit Opportunity Act (Regulation B)",
+      "dense_score_snapshot": 0.765,
+      "true_impact_level": "high",
+      "rationale": "ECOA fair-lending training content must reflect current Reg B requirements. Direct match."
+    },
+    {
+      "pair_id": 5,
+      "policy_name": "Fair-Lending-ECOA-Policy",
+      "section_id": "6.1",
+      "section_title": "Section 1071 Compliance",
+      "regulation_doc_id": "e836ad48-245d-4d52-a3aa-961a0af59585",
+      "regulation_title": "Small Business Lending Under the Equal Credit Opportunity Act",
+      "dense_score_snapshot": 0.705,
+      "true_impact_level": "high",
+      "rationale": "Section 1071 (small business lending data collection) IS the ECOA small-business-lending rule. Exact topical match."
+    },
+    {
+      "pair_id": 6,
+      "policy_name": "Fair-Lending-ECOA-Policy",
+      "section_id": "1.3",
+      "section_title": "Regulatory Framework",
+      "regulation_doc_id": "c5ba5ac6-a2ac-4522-a4b4-23c19d492dd3",
+      "regulation_title": "Equal Credit Opportunity Act (Regulation B)",
+      "dense_score_snapshot": 0.680,
+      "true_impact_level": "high",
+      "rationale": "A section listing the policy's governing regulations should flag a new/updated Reg B publication as directly relevant."
+    },
+    {
+      "pair_id": 7,
+      "policy_name": "Fair-Lending-ECOA-Policy",
+      "section_id": "7.1",
+      "section_title": "Annual Fair Lending Analysis",
+      "regulation_doc_id": "c5ba5ac6-a2ac-4522-a4b4-23c19d492dd3",
+      "regulation_title": "Equal Credit Opportunity Act (Regulation B)",
+      "dense_score_snapshot": 0.572,
+      "true_impact_level": "high",
+      "rationale": "Annual fair lending analysis is performed against ECOA/Reg B standards. Direct, substantive match."
+    },
+    {
+      "pair_id": 8,
+      "policy_name": "Fair-Lending-ECOA-Policy",
+      "section_id": "6.2",
+      "section_title": "Anticipated Requirements",
+      "regulation_doc_id": "e836ad48-245d-4d52-a3aa-961a0af59585",
+      "regulation_title": "Small Business Lending Under the Equal Credit Opportunity Act",
+      "dense_score_snapshot": 0.646,
+      "true_impact_level": "high",
+      "rationale": "A section about anticipated ECOA requirements should flag the small-business-lending (1071) rule as directly relevant."
+    },
+    {
+      "pair_id": 9,
+      "policy_name": "BSA-AML-Policy",
+      "section_id": "10.2",
+      "section_title": "Consequences",
+      "regulation_doc_id": "c5ba5ac6-a2ac-4522-a4b4-23c19d492dd3",
+      "regulation_title": "Equal Credit Opportunity Act (Regulation B)",
+      "dense_score_snapshot": 0.557,
+      "true_impact_level": "not_applicable",
+      "rationale": "BSA §10.2 covers penalties for BSA/AML violations. Reg B is an unrelated statute — match is driven by shared generic 'penalties/consequences' language, not substance."
+    },
+    {
+      "pair_id": 10,
+      "policy_name": "TRID-Mortgage-Disclosure-Policy",
+      "section_id": "2.4",
+      "section_title": "Good Faith Tolerance Standards",
+      "regulation_doc_id": "c5ba5ac6-a2ac-4522-a4b4-23c19d492dd3",
+      "regulation_title": "Equal Credit Opportunity Act (Regulation B)",
+      "dense_score_snapshot": 0.581,
+      "true_impact_level": "not_applicable",
+      "rationale": "Good-faith fee tolerances are a TRID/RESPA concept with no ECOA/Reg B counterpart. Generic regulatory-language overlap only."
+    },
+    {
+      "pair_id": 11,
+      "policy_name": "TRID-Mortgage-Disclosure-Policy",
+      "section_id": "3.1",
+      "section_title": "Closing Disclosure Timing",
+      "regulation_doc_id": "c5ba5ac6-a2ac-4522-a4b4-23c19d492dd3",
+      "regulation_title": "Equal Credit Opportunity Act (Regulation B)",
+      "dense_score_snapshot": 0.581,
+      "true_impact_level": "low",
+      "rationale": "Closing Disclosure timing is a TRID requirement, not Reg B. Some loose conceptual overlap around 'disclosure timing rules' generally, but not substantive — low, not high."
+    },
+    {
+      "pair_id": 12,
+      "policy_name": "TRID-Mortgage-Disclosure-Policy",
+      "section_id": "9.2",
+      "section_title": "Compliance Testing",
+      "regulation_doc_id": "c5ba5ac6-a2ac-4522-a4b4-23c19d492dd3",
+      "regulation_title": "Equal Credit Opportunity Act (Regulation B)",
+      "dense_score_snapshot": 0.578,
+      "true_impact_level": "low",
+      "rationale": "TRID compliance testing tests TRID requirements. Reg B could be a tangential cross-reference in a real compliance test plan, but this is not a direct match."
+    },
+    {
+      "pair_id": 13,
+      "policy_name": "BSA-AML-Policy",
+      "section_id": "3.2",
+      "section_title": "Customer Due Diligence Requirements",
+      "regulation_doc_id": "c5ba5ac6-a2ac-4522-a4b4-23c19d492dd3",
+      "regulation_title": "Equal Credit Opportunity Act (Regulation B)",
+      "dense_score_snapshot": 0.558,
+      "true_impact_level": "medium",
+      "rationale": "CDD information-collection practices intersect with Reg B's rules on what can be asked/recorded during account opening — real but partial overlap, not a core ECOA match."
+    },
+    {
+      "pair_id": 14,
+      "policy_name": "BSA-AML-Policy",
+      "section_id": "1.1",
+      "section_title": "Purpose",
+      "regulation_doc_id": "35f057fd-8712-467f-8adc-1cf8b7fe830c",
+      "regulation_title": "Agency Information Collection Activities: Comment Request",
+      "dense_score_snapshot": 0.612,
+      "true_impact_level": "not_applicable",
+      "rationale": "This regulation is a generic CFPB Federal Register notice about an information-collection comment period — no substantive connection to a BSA policy's purpose statement. Boilerplate Federal Register language drives the match."
+    },
+    {
+      "pair_id": 15,
+      "policy_name": "BSA-AML-Policy",
+      "section_id": "5.1",
+      "section_title": "High-Risk Customer Categories",
+      "regulation_doc_id": "35f057fd-8712-467f-8adc-1cf8b7fe830c",
+      "regulation_title": "Agency Information Collection Activities: Comment Request",
+      "dense_score_snapshot": 0.590,
+      "true_impact_level": "not_applicable",
+      "rationale": "Same generic Federal Register notice as pair 14 — no substantive link to BSA high-risk customer categorization."
+    },
+    {
+      "pair_id": 16,
+      "policy_name": "Fair-Lending-ECOA-Policy",
+      "section_id": "4.2",
+      "section_title": "Notice Content",
+      "regulation_doc_id": "35f057fd-8712-467f-8adc-1cf8b7fe830c",
+      "regulation_title": "Agency Information Collection Activities: Comment Request",
+      "dense_score_snapshot": 0.601,
+      "true_impact_level": "low",
+      "rationale": "Both concern regulatory 'notices', but this is a CFPB info-collection notice, not adverse-action notice content under Reg B. Loose thematic overlap only — low, not high."
+    },
+    {
+      "pair_id": 17,
+      "policy_name": "BSA-AML-Policy",
+      "section_id": "1.2",
+      "section_title": "Scope",
+      "regulation_doc_id": "7745cf93-d80e-430a-b0d4-23d84d7f7c2c",
+      "regulation_title": "Agencies issue host state loan-to-deposit ratios",
+      "dense_score_snapshot": 0.0,
+      "true_impact_level": "not_applicable",
+      "rationale": "Host-state loan-to-deposit ratios concern interstate branching, completely unrelated to BSA/AML program scope. Clear true negative."
+    },
+    {
+      "pair_id": 18,
+      "policy_name": "BSA-AML-Policy",
+      "section_id": "1.1",
+      "section_title": "Purpose",
+      "regulation_doc_id": "c5ba5ac6-a2ac-4522-a4b4-23c19d492dd3",
+      "regulation_title": "Equal Credit Opportunity Act (Regulation B)",
+      "dense_score_snapshot": 0.0,
+      "true_impact_level": "not_applicable",
+      "rationale": "ECOA/Reg B has no bearing on a BSA/AML program's purpose statement. Clear true negative."
+    },
+    {
+      "pair_id": 19,
+      "policy_name": "TRID-Mortgage-Disclosure-Policy",
+      "section_id": "7.1",
+      "section_title": "Cure of Good Faith Violations",
+      "regulation_doc_id": "c5ba5ac6-a2ac-4522-a4b4-23c19d492dd3",
+      "regulation_title": "Equal Credit Opportunity Act (Regulation B)",
+      "dense_score_snapshot": 0.449,
+      "true_impact_level": "low",
+      "rationale": "Both involve 'remediation of compliance violations' as a general concept, but TRID cure provisions and Reg B are otherwise unrelated. Low is a fair call."
+    },
+    {
+      "pair_id": 20,
+      "policy_name": "BSA-AML-Policy",
+      "section_id": "4.3",
+      "section_title": "Structuring",
+      "regulation_doc_id": "c5ba5ac6-a2ac-4522-a4b4-23c19d492dd3",
+      "regulation_title": "Equal Credit Opportunity Act (Regulation B)",
+      "dense_score_snapshot": 0.445,
+      "true_impact_level": "not_applicable",
+      "rationale": "Structuring (breaking transactions to evade CTR thresholds) is a BSA/AML detection topic with zero ECOA relevance."
+    },
+    {
+      "pair_id": 21,
+      "policy_name": "Fair-Lending-ECOA-Policy",
+      "section_id": "3.4",
+      "section_title": "Pricing Consistency",
+      "regulation_doc_id": "c5ba5ac6-a2ac-4522-a4b4-23c19d492dd3",
+      "regulation_title": "Equal Credit Opportunity Act (Regulation B)",
+      "dense_score_snapshot": 0.438,
+      "true_impact_level": "medium",
+      "rationale": "Pricing-discrimination consistency is a core ECOA fair-lending concern — this is a true positive that the classifier UNDER-scored (predicted 'low'), not an over-match."
+    },
+    {
+      "pair_id": 22,
+      "policy_name": "BSA-AML-Policy",
+      "section_id": "2.1",
+      "section_title": "Four Pillars of the BSA/AML Program",
+      "regulation_doc_id": "c5ba5ac6-a2ac-4522-a4b4-23c19d492dd3",
+      "regulation_title": "Equal Credit Opportunity Act (Regulation B)",
+      "dense_score_snapshot": 0.438,
+      "true_impact_level": "not_applicable",
+      "rationale": "The 'four pillars' BSA program structure has no Reg B counterpart. True negative."
+    },
+    {
+      "pair_id": 23,
+      "policy_name": "TRID-Mortgage-Disclosure-Policy",
+      "section_id": "2.1",
+      "section_title": "Triggering Events",
+      "regulation_doc_id": "c5ba5ac6-a2ac-4522-a4b4-23c19d492dd3",
+      "regulation_title": "Equal Credit Opportunity Act (Regulation B)",
+      "dense_score_snapshot": 0.483,
+      "true_impact_level": "not_applicable",
+      "rationale": "Loan Estimate triggering events are a TRID-specific concept (application definition under Reg Z/RESPA-TILA), unrelated to ECOA."
+    },
+    {
+      "pair_id": 24,
+      "policy_name": "TRID-Mortgage-Disclosure-Policy",
+      "section_id": "3.4",
+      "section_title": "Changes After Consummation",
+      "regulation_doc_id": "c5ba5ac6-a2ac-4522-a4b4-23c19d492dd3",
+      "regulation_title": "Equal Credit Opportunity Act (Regulation B)",
+      "dense_score_snapshot": 0.545,
+      "true_impact_level": "low",
+      "rationale": "Post-consummation disclosure corrections are TRID-specific. Generic 'changes/compliance' language overlap with Reg B only."
+    },
+    {
+      "pair_id": 25,
+      "policy_name": "BSA-AML-Policy",
+      "section_id": "6.1",
+      "section_title": "Screening Requirements",
+      "regulation_doc_id": "de30ba27-bacb-477c-81f5-7a9bfa1de304",
+      "regulation_title": "Federal Reserve Board requests public comment on a proposal to establish a \"payment account\"",
+      "dense_score_snapshot": 0.452,
+      "true_impact_level": "not_applicable",
+      "rationale": "OFAC/sanctions screening requirements are unrelated to a Fed proposal about Reserve Bank payment accounts. Generic Fed-press-release language overlap only."
+    },
+    {
+      "pair_id": 26,
+      "policy_name": "Fair-Lending-ECOA-Policy",
+      "section_id": "5.1",
+      "section_title": "Data Collection Requirements",
+      "regulation_doc_id": "c5ba5ac6-a2ac-4522-a4b4-23c19d492dd3",
+      "regulation_title": "Equal Credit Opportunity Act (Regulation B)",
+      "dense_score_snapshot": 0.474,
+      "true_impact_level": "high",
+      "rationale": "HMDA/Reg B demographic data collection requirements are a direct ECOA topic — this is a true positive UNDER-scored by the classifier (predicted 'medium')."
+    },
+    {
+      "pair_id": 27,
+      "policy_name": "Fair-Lending-ECOA-Policy",
+      "section_id": "8.1",
+      "section_title": "Required Training",
+      "regulation_doc_id": "c5ba5ac6-a2ac-4522-a4b4-23c19d492dd3",
+      "regulation_title": "Equal Credit Opportunity Act (Regulation B)",
+      "dense_score_snapshot": 0.521,
+      "true_impact_level": "high",
+      "rationale": "Fair-lending training requirements directly derive from ECOA/Reg B obligations — true positive under-scored by the classifier (predicted 'medium')."
+    },
+    {
+      "pair_id": 28,
+      "policy_name": "BSA-AML-Policy",
+      "section_id": "5.1",
+      "section_title": "High-Risk Customer Categories",
+      "regulation_doc_id": "c5ba5ac6-a2ac-4522-a4b4-23c19d492dd3",
+      "regulation_title": "Equal Credit Opportunity Act (Regulation B)",
+      "dense_score_snapshot": 0.532,
+      "true_impact_level": "medium",
+      "rationale": "High-risk customer categorization can raise fair-lending/disparate-impact concerns under Reg B if categories correlate with prohibited bases — real but secondary overlap."
+    },
+    {
+      "pair_id": 29,
+      "policy_name": "TRID-Mortgage-Disclosure-Policy",
+      "section_id": "6.1",
+      "section_title": "Loan Origination System Configuration",
+      "regulation_doc_id": "c5ba5ac6-a2ac-4522-a4b4-23c19d492dd3",
+      "regulation_title": "Equal Credit Opportunity Act (Regulation B)",
+      "dense_score_snapshot": 0.517,
+      "true_impact_level": "not_applicable",
+      "rationale": "LOS configuration for TRID disclosure forms has no direct Reg B requirement. Generic 'system/compliance configuration' language overlap only."
+    },
+    {
+      "pair_id": 30,
+      "policy_name": "TRID-Mortgage-Disclosure-Policy",
+      "section_id": "1.1",
+      "section_title": "Purpose",
+      "regulation_doc_id": "c5ba5ac6-a2ac-4522-a4b4-23c19d492dd3",
+      "regulation_title": "Equal Credit Opportunity Act (Regulation B)",
+      "dense_score_snapshot": 0.557,
+      "true_impact_level": "low",
+      "rationale": "A TRID policy's purpose statement and ECOA/Reg B share generic 'consumer protection / disclosure' regulatory framing, but no substantive overlap. Low, not high."
+    }
+  ]
+}
