@@ -9,7 +9,7 @@ beautifulsoup4==4.14.3    # HTML parser — extracts full regulation text from a
 streamlit==1.55.0         # Browser dashboard UI — no frontend build tooling required
 
 # ── F2 — Summarisation (added Day 8) ─────────────────────────────────────────
-anthropic==0.84.0         # Anthropic Claude API SDK — primary LLM for F2 summarisation
+anthropic==0.96.0         # Anthropic Claude API SDK — primary LLM for F2 summarisation (>=0.96.0 required by langchain-anthropic 1.4.6)
 sentence-transformers==5.5.1  # Local embedding models — dense retrieval for F2/F3 (no API cost)
 rank-bm25==0.2.2              # BM25 sparse retrieval — keyword matching half of hybrid search
 # langsmith                # Added Week 2 (Day 15)
