@@ -466,6 +466,10 @@ AuditLog
 **What it does:** Day 44 — 3 tests for `scripts/cost_dashboard.py` against in-memory SQLite: cost/token aggregation by model, skipping pre-Day-44 rows with no token data, and the no-logs case.
 **Run:** `python -m pytest tests/test_cost_dashboard.py -q` → 3 passed.
 
+### v1.0 — Day 45 (Integration + Portfolio, final day of Week 7)
+**What happened:** Git repo initialized, `.gitignore` verified to exclude `.env`/`*.db`/`logs/`/`.claude/`, all 221 tracked files committed as the root commit, tagged `v1.0`. `uvicorn api.main:app` run locally on port 8001 as a smoke test against every documented endpoint (`/health`, `/f1/documents`, `/f2/review-queue`, `/f3/impact-results`, `/f4/tasks`, `/f5/compliance-report`) — all returned live data from the dev DB. `docs/Case-Study-v1.md` updated with the real 90-day compliance-report numbers (19 documents ingested, 54 HIGH findings, 3 tasks created, 0% override rate).
+**Key limitation noted:** this was a local smoke test, not a public deployment — no live URL exists, and the Render/Railway Docker deploy in `docs/Deployment-Guide-v1.md` remains unverified end-to-end (no Docker CLI in this build environment). See `notes/Day-45-Integration.md`.
+
 ---
 
 ## Data Flow (Day 2)

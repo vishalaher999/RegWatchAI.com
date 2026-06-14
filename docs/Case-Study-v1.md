@@ -1,6 +1,6 @@
 # Case Study: RegWatch AI — Compliance Intelligence for Community Banks
 
-**A portfolio case study covering Weeks 1–7 of the build (Days 1–43)**
+**A portfolio case study covering Weeks 1–7 of the build (Days 1–45)**
 
 ---
 
@@ -213,12 +213,49 @@ end-to-end test), no regressions.
 | F2 RAGAS faithfulness | ≥0.85 (50 golden examples) | 0.783 (per `Product-Roadmap-3-6-12.md`) | **Below target** |
 | F2 institution/routing/no-action accuracy | — | 0.80 / 0.85 / 0.95 | Good |
 | F3 impact classification | ≥80% (30 labeled pairs) | threshold-based, evaluated on golden set | Met (see F3 audit) |
-| Test suite | — | 191/191 passing | Met |
+| Test suite | — | 194/194 passing | Met |
 
 The F2 faithfulness gap (0.783 vs. 0.85) is the most important open item
 flagged in this build's own roadmap docs — it's called out explicitly rather
 than glossed over, in keeping with the "eval gates, not vibes" principle.
 Closing it is listed as a Day 45 target.
+
+---
+
+## Day 45: The Live Smoke Test
+
+Day 45 is the integration day the roadmap calls "Portfolio publish" — the
+question it answers is whether the read-only FastAPI layer built on Day 40
+actually serves real numbers from the real dev database, not just passes
+its own unit tests.
+
+`uvicorn api.main:app` was started locally and every documented endpoint was
+hit in sequence: `/health`, `/f1/documents`, `/f2/review-queue`,
+`/f3/impact-results`, `/f4/tasks`, and `/f5/compliance-report`. All returned
+live data. The 90-day compliance report — the artifact "Mike" (risk manager)
+would actually read — came back as:
+
+| Metric | Value |
+|---|---|
+| Documents ingested (90 days) | 19 |
+| Summaries by routing | approved: 11, review: 13, escalate: 8, dismiss: 48, unknown: 15 |
+| Guardrail warnings | 0 |
+| HIGH findings (F3) | 54 |
+| Tasks created (F4) | 3 |
+| Override rate | 0.0% |
+
+Two things are worth being honest about here, in keeping with this build's
+"honest gaps" pattern:
+
+- **This was a local smoke test, not a public deployment.** No live URL
+  exists — `docker --version` is unavailable in this build environment, so
+  the Render/Railway deploy described in `docs/Deployment-Guide-v1.md`
+  remains unverified end-to-end. "Live" means "the FastAPI app runs and
+  serves real data from the dev DB," not "reachable from the internet."
+- **Override rate is 0.0% because only 3 tasks have ever been created** —
+  not because the agent is perfectly calibrated. A meaningful override-rate
+  signal (per `docs/Override-Rate-Dashboard-v1.md`) requires a larger sample
+  of approved tasks than this build has generated.
 
 ---
 
@@ -242,6 +279,6 @@ Beyond the regulatory-compliance domain, this build is a worked example of:
 
 ---
 
-*This case study covers Days 1–43 of the RegWatch AI build. See
-`docs/ARCHITECTURE.md` for the full file-by-file build log, and
+*This case study covers Days 1–45 of the RegWatch AI build, tagged `v1.0`.
+See `docs/ARCHITECTURE.md` for the full file-by-file build log, and
 `docs/Product-Roadmap-3-6-12.md` for what comes next.*
