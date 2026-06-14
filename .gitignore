@@ -22,9 +22,12 @@ env/
 .env/
 
 # Database files
+# regwatch.db is intentionally committed as a demo seed DB for deployment
+# (synthetic/mock data only, per CLAUDE.md "public data only" constraint).
 *.db
 *.sqlite
 *.sqlite3
+!regwatch.db
 
 # IDE
 .vscode/
@@ -56,7 +59,10 @@ htmlcov/
 logs/
 
 # Generated vector indexes (rebuild with: python -m src.f3_impact.build_indexes)
+# Committed for deployment as a demo seed (synthetic/mock data only).
 data/f3_indexes/
+!data/f3_indexes/
+!data/f3_indexes/*
 
 # Generated exports (rebuild with: python -m scripts.export_tasks)
 exports/

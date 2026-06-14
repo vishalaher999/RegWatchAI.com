@@ -1,0 +1,584 @@
+{
+  "name": "policy_sections",
+  "model_name": "all-mpnet-base-v2",
+  "ids": [
+    "BSA-AML-Policy::1.1",
+    "BSA-AML-Policy::1.2",
+    "BSA-AML-Policy::1.3",
+    "BSA-AML-Policy::2.1",
+    "BSA-AML-Policy::2.2",
+    "BSA-AML-Policy::3.1",
+    "BSA-AML-Policy::3.2",
+    "BSA-AML-Policy::3.3",
+    "BSA-AML-Policy::3.4",
+    "BSA-AML-Policy::4.1",
+    "BSA-AML-Policy::4.2",
+    "BSA-AML-Policy::4.3",
+    "BSA-AML-Policy::4.4",
+    "BSA-AML-Policy::4.5",
+    "BSA-AML-Policy::5.1",
+    "BSA-AML-Policy::5.2",
+    "BSA-AML-Policy::5.3",
+    "BSA-AML-Policy::6.1",
+    "BSA-AML-Policy::6.2",
+    "BSA-AML-Policy::7.1",
+    "BSA-AML-Policy::7.2",
+    "BSA-AML-Policy::8.1",
+    "BSA-AML-Policy::8.2",
+    "BSA-AML-Policy::9.1",
+    "BSA-AML-Policy::10.1",
+    "BSA-AML-Policy::10.2",
+    "Fair-Lending-ECOA-Policy::1.1",
+    "Fair-Lending-ECOA-Policy::1.2",
+    "Fair-Lending-ECOA-Policy::1.3",
+    "Fair-Lending-ECOA-Policy::2.1",
+    "Fair-Lending-ECOA-Policy::2.2",
+    "Fair-Lending-ECOA-Policy::2.3",
+    "Fair-Lending-ECOA-Policy::3.1",
+    "Fair-Lending-ECOA-Policy::3.2",
+    "Fair-Lending-ECOA-Policy::3.3",
+    "Fair-Lending-ECOA-Policy::3.4",
+    "Fair-Lending-ECOA-Policy::4.1",
+    "Fair-Lending-ECOA-Policy::4.2",
+    "Fair-Lending-ECOA-Policy::4.3",
+    "Fair-Lending-ECOA-Policy::5.1",
+    "Fair-Lending-ECOA-Policy::5.2",
+    "Fair-Lending-ECOA-Policy::5.3",
+    "Fair-Lending-ECOA-Policy::6.1",
+    "Fair-Lending-ECOA-Policy::6.2",
+    "Fair-Lending-ECOA-Policy::7.1",
+    "Fair-Lending-ECOA-Policy::7.2",
+    "Fair-Lending-ECOA-Policy::7.3",
+    "Fair-Lending-ECOA-Policy::8.1",
+    "Fair-Lending-ECOA-Policy::8.2",
+    "TRID-Mortgage-Disclosure-Policy::1.1",
+    "TRID-Mortgage-Disclosure-Policy::1.2",
+    "TRID-Mortgage-Disclosure-Policy::2.1",
+    "TRID-Mortgage-Disclosure-Policy::2.2",
+    "TRID-Mortgage-Disclosure-Policy::2.3",
+    "TRID-Mortgage-Disclosure-Policy::2.4",
+    "TRID-Mortgage-Disclosure-Policy::3.1",
+    "TRID-Mortgage-Disclosure-Policy::3.2",
+    "TRID-Mortgage-Disclosure-Policy::3.3",
+    "TRID-Mortgage-Disclosure-Policy::3.4",
+    "TRID-Mortgage-Disclosure-Policy::4.1",
+    "TRID-Mortgage-Disclosure-Policy::4.2",
+    "TRID-Mortgage-Disclosure-Policy::5.1",
+    "TRID-Mortgage-Disclosure-Policy::5.2",
+    "TRID-Mortgage-Disclosure-Policy::5.3",
+    "TRID-Mortgage-Disclosure-Policy::6.1",
+    "TRID-Mortgage-Disclosure-Policy::6.2",
+    "TRID-Mortgage-Disclosure-Policy::6.3",
+    "TRID-Mortgage-Disclosure-Policy::7.1",
+    "TRID-Mortgage-Disclosure-Policy::7.2",
+    "TRID-Mortgage-Disclosure-Policy::8.1",
+    "TRID-Mortgage-Disclosure-Policy::9.1",
+    "TRID-Mortgage-Disclosure-Policy::9.2"
+  ],
+  "metadata": [
+    {
+      "policy_name": "BSA-AML-Policy",
+      "section_id": "1.1",
+      "section_title": "Purpose",
+      "parent_section": "SECTION 1: PURPOSE AND SCOPE",
+      "text": "This policy establishes First Community Bank's (the \"Bank\") compliance program under the Bank Secrecy Act (BSA), 31 U.S.C. \u00a7\u00a7 5311-5336, and implementing regulations at 31 C.F.R. Chapter X, and the USA PATRIOT Act. The Bank is committed to detecting and reporting financial crimes, including money laundering, terrorist financing, and other illicit activities."
+    },
+    {
+      "policy_name": "BSA-AML-Policy",
+      "section_id": "1.2",
+      "section_title": "Scope",
+      "parent_section": "SECTION 1: PURPOSE AND SCOPE",
+      "text": "This policy applies to all Bank employees, officers, directors, and contractors. All products, services, and customer relationships of the Bank are subject to this policy."
+    },
+    {
+      "policy_name": "BSA-AML-Policy",
+      "section_id": "1.3",
+      "section_title": "Regulatory Framework",
+      "parent_section": "SECTION 1: PURPOSE AND SCOPE",
+      "text": "The Bank's BSA/AML Program is designed to comply with:\n- Bank Secrecy Act (31 U.S.C. \u00a7\u00a7 5311-5336)\n- USA PATRIOT Act (31 U.S.C. \u00a7 5318(h))\n- FinCEN regulations (31 C.F.R. Chapter X)\n- Federal Reserve Regulation H and Y\n- FFIEC BSA/AML Examination Manual\n\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501"
+    },
+    {
+      "policy_name": "BSA-AML-Policy",
+      "section_id": "2.1",
+      "section_title": "Four Pillars of the BSA/AML Program",
+      "parent_section": "SECTION 2: BSA/AML PROGRAM REQUIREMENTS",
+      "text": "The Bank maintains a BSA/AML Program based on four pillars:\n(a) Policies, procedures, and internal controls\n(b) A designated BSA Compliance Officer\n(c) Ongoing training for appropriate personnel\n(d) Independent testing (audit)"
+    },
+    {
+      "policy_name": "BSA-AML-Policy",
+      "section_id": "2.2",
+      "section_title": "BSA Compliance Officer",
+      "parent_section": "SECTION 2: BSA/AML PROGRAM REQUIREMENTS",
+      "text": "The Bank shall designate a qualified BSA Compliance Officer responsible for:\n- Day-to-day oversight of the BSA/AML Program\n- Filing required reports with FinCEN\n- Ensuring adequate training for all applicable staff\n- Reporting to the Board of Directors at least annually\n\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501"
+    },
+    {
+      "policy_name": "BSA-AML-Policy",
+      "section_id": "3.1",
+      "section_title": "Customer Identification Program (CIP)",
+      "parent_section": "SECTION 3: CUSTOMER DUE DILIGENCE (CDD) AND KNOW YOUR CUSTOMER (KYC)",
+      "text": "At account opening, the Bank shall collect and verify:\n- Legal name\n- Date of birth (for individuals)\n- Address\n- Identification number (SSN, EIN, or foreign equivalent)"
+    },
+    {
+      "policy_name": "BSA-AML-Policy",
+      "section_id": "3.2",
+      "section_title": "Customer Due Diligence Requirements",
+      "parent_section": "SECTION 3: CUSTOMER DUE DILIGENCE (CDD) AND KNOW YOUR CUSTOMER (KYC)",
+      "text": "The Bank shall assess the risk level of each customer based on:\n- Customer type (individual, business, non-profit)\n- Geographic location\n- Products and services used\n- Expected account activity"
+    },
+    {
+      "policy_name": "BSA-AML-Policy",
+      "section_id": "3.3",
+      "section_title": "Beneficial Ownership",
+      "parent_section": "SECTION 3: CUSTOMER DUE DILIGENCE (CDD) AND KNOW YOUR CUSTOMER (KYC)",
+      "text": "For legal entity customers, the Bank shall collect beneficial ownership information identifying:\n- Each individual who owns 25% or more of the legal entity\n- One individual who controls the legal entity"
+    },
+    {
+      "policy_name": "BSA-AML-Policy",
+      "section_id": "3.4",
+      "section_title": "Enhanced Due Diligence (EDD)",
+      "parent_section": "SECTION 3: CUSTOMER DUE DILIGENCE (CDD) AND KNOW YOUR CUSTOMER (KYC)",
+      "text": "Higher-risk customers shall be subject to Enhanced Due Diligence including:\n- Additional documentation of source of funds\n- More frequent review of account activity\n- Senior management approval for account opening\n- Ongoing monitoring at least annually\n\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501"
+    },
+    {
+      "policy_name": "BSA-AML-Policy",
+      "section_id": "4.1",
+      "section_title": "Automated Monitoring System",
+      "parent_section": "SECTION 4: TRANSACTION MONITORING",
+      "text": "The Bank utilizes an automated transaction monitoring system configured to identify:\n- Unusual cash transactions\n- Structuring activity\n- Rapid movement of funds\n- Transactions inconsistent with customer profile"
+    },
+    {
+      "policy_name": "BSA-AML-Policy",
+      "section_id": "4.2",
+      "section_title": "Currency Transaction Reporting (CTR)",
+      "parent_section": "SECTION 4: TRANSACTION MONITORING",
+      "text": "The Bank shall file a Currency Transaction Report (FinCEN Form 104) for:\n- Cash transactions exceeding $10,000 in a single business day\n- Multiple transactions by or on behalf of the same person exceeding $10,000"
+    },
+    {
+      "policy_name": "BSA-AML-Policy",
+      "section_id": "4.3",
+      "section_title": "Structuring",
+      "parent_section": "SECTION 4: TRANSACTION MONITORING",
+      "text": "The Bank shall not assist any customer in structuring transactions to evade CTR reporting requirements. Detected structuring shall be reported via Suspicious Activity Report."
+    },
+    {
+      "policy_name": "BSA-AML-Policy",
+      "section_id": "4.4",
+      "section_title": "Suspicious Activity Reports (SAR)",
+      "parent_section": "SECTION 4: TRANSACTION MONITORING",
+      "text": "The Bank shall file a SAR with FinCEN when it knows, suspects, or has reason to suspect that a transaction:\n- Involves funds from illegal activity\n- Is designed to evade BSA requirements\n- Lacks lawful purpose\n- Involves a violation of law or regulation\nThreshold: $5,000 for known or suspected violations; $2,000 for certain categories"
+    },
+    {
+      "policy_name": "BSA-AML-Policy",
+      "section_id": "4.5",
+      "section_title": "SAR Confidentiality",
+      "parent_section": "SECTION 4: TRANSACTION MONITORING",
+      "text": "The existence of a SAR filing shall not be disclosed to the subject of the report or any other party, except as permitted by law.\n\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501"
+    },
+    {
+      "policy_name": "BSA-AML-Policy",
+      "section_id": "5.1",
+      "section_title": "High-Risk Customer Categories",
+      "parent_section": "SECTION 5: HIGH-RISK CUSTOMERS AND ACTIVITIES",
+      "text": "The following customer types require heightened scrutiny:\n- Politically Exposed Persons (PEPs) and their family members\n- Foreign financial institutions\n- Money services businesses (MSBs)\n- Cash-intensive businesses\n- Non-profit organizations operating internationally\n- Customers in high-risk jurisdictions"
+    },
+    {
+      "policy_name": "BSA-AML-Policy",
+      "section_id": "5.2",
+      "section_title": "Correspondent Banking",
+      "parent_section": "SECTION 5: HIGH-RISK CUSTOMERS AND ACTIVITIES",
+      "text": "The Bank shall perform enhanced due diligence on foreign correspondent banking relationships including assessment of foreign institution's AML program."
+    },
+    {
+      "policy_name": "BSA-AML-Policy",
+      "section_id": "5.3",
+      "section_title": "Private Banking",
+      "parent_section": "SECTION 5: HIGH-RISK CUSTOMERS AND ACTIVITIES",
+      "text": "Private banking accounts shall be subject to Enhanced Due Diligence and senior management oversight.\n\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501"
+    },
+    {
+      "policy_name": "BSA-AML-Policy",
+      "section_id": "6.1",
+      "section_title": "Screening Requirements",
+      "parent_section": "SECTION 6: OFAC COMPLIANCE",
+      "text": "The Bank shall screen all customers, transactions, and counterparties against OFAC Specially Designated Nationals (SDN) list and applicable sanctions lists."
+    },
+    {
+      "policy_name": "BSA-AML-Policy",
+      "section_id": "6.2",
+      "section_title": "Blocked Transactions",
+      "parent_section": "SECTION 6: OFAC COMPLIANCE",
+      "text": "Transactions involving sanctioned parties or countries shall be blocked and reported to OFAC as required.\n\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501"
+    },
+    {
+      "policy_name": "BSA-AML-Policy",
+      "section_id": "7.1",
+      "section_title": "Required Training",
+      "parent_section": "SECTION 7: TRAINING",
+      "text": "All Bank employees shall complete BSA/AML training:\n- New employees: within 30 days of hire\n- All employees: annually thereafter\n- BSA-specific staff: more frequent specialized training"
+    },
+    {
+      "policy_name": "BSA-AML-Policy",
+      "section_id": "7.2",
+      "section_title": "Training Content",
+      "parent_section": "SECTION 7: TRAINING",
+      "text": "Training shall cover:\n- Recognition of suspicious activity\n- Reporting obligations\n- Consequences of non-compliance\n- Red flags specific to employee's role\n\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501"
+    },
+    {
+      "policy_name": "BSA-AML-Policy",
+      "section_id": "8.1",
+      "section_title": "BSA/AML Audit",
+      "parent_section": "SECTION 8: INDEPENDENT TESTING",
+      "text": "The Bank shall conduct an independent audit of the BSA/AML Program at least annually. The audit shall assess:\n- Adequacy of internal controls\n- Accuracy of CTR and SAR filings\n- Effectiveness of training\n- Quality of transaction monitoring"
+    },
+    {
+      "policy_name": "BSA-AML-Policy",
+      "section_id": "8.2",
+      "section_title": "Audit Scope",
+      "parent_section": "SECTION 8: INDEPENDENT TESTING",
+      "text": "The audit shall be conducted by qualified internal audit staff or an external firm with BSA expertise. Results shall be reported to the Board of Directors and Audit Committee.\n\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501"
+    },
+    {
+      "policy_name": "BSA-AML-Policy",
+      "section_id": "9.1",
+      "section_title": "Record Retention",
+      "parent_section": "SECTION 9: RECORDKEEPING",
+      "text": "The Bank shall maintain BSA-related records for five years from the date of the transaction or account closing, including:\n- CIP records\n- CTR filings\n- SAR filings (maintained confidentially)\n- Beneficial ownership certifications\n- Wire transfer records\n\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501"
+    },
+    {
+      "policy_name": "BSA-AML-Policy",
+      "section_id": "10.1",
+      "section_title": "Reporting Violations",
+      "parent_section": "SECTION 10: POLICY VIOLATIONS AND CONSEQUENCES",
+      "text": "Employees shall report suspected policy violations to the BSA Compliance Officer or through the Bank's ethics hotline."
+    },
+    {
+      "policy_name": "BSA-AML-Policy",
+      "section_id": "10.2",
+      "section_title": "Consequences",
+      "parent_section": "SECTION 10: POLICY VIOLATIONS AND CONSEQUENCES",
+      "text": "Violations of this policy may result in disciplinary action up to and including termination, as well as potential civil and criminal penalties.\n\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\nPOLICY APPROVAL\n\nApproved: Chief Compliance Officer\nDate: January 1, 2026\nBoard Acknowledgment: January 15, 2026\n\nThis policy supersedes all prior BSA/AML policies and procedures.\nNext scheduled review: January 1, 2027"
+    },
+    {
+      "policy_name": "Fair-Lending-ECOA-Policy",
+      "section_id": "1.1",
+      "section_title": "Purpose",
+      "parent_section": "SECTION 1: PURPOSE AND SCOPE",
+      "text": "This policy establishes First Community Bank's commitment to fair, equitable, and non-discriminatory lending practices in compliance with the Equal Credit Opportunity Act (ECOA), Regulation B, the Fair Housing Act (FHA), and the Home Mortgage Disclosure Act (HMDA)."
+    },
+    {
+      "policy_name": "Fair-Lending-ECOA-Policy",
+      "section_id": "1.2",
+      "section_title": "Scope",
+      "parent_section": "SECTION 1: PURPOSE AND SCOPE",
+      "text": "This policy applies to all credit products offered by the Bank, including:\n- Residential mortgage loans\n- Home equity loans and lines of credit\n- Consumer installment loans\n- Small business loans\n- Agricultural loans\n- Commercial real estate loans"
+    },
+    {
+      "policy_name": "Fair-Lending-ECOA-Policy",
+      "section_id": "1.3",
+      "section_title": "Regulatory Framework",
+      "parent_section": "SECTION 1: PURPOSE AND SCOPE",
+      "text": "- Equal Credit Opportunity Act (15 U.S.C. \u00a7 1691 et seq.)\n- Regulation B (12 C.F.R. Part 1002) \u2014 CFPB\n- Fair Housing Act (42 U.S.C. \u00a7\u00a7 3601-3619)\n- Home Mortgage Disclosure Act (12 U.S.C. \u00a7 2801 et seq.)\n- Regulation C (12 C.F.R. Part 1003) \u2014 CFPB\n- Community Reinvestment Act (12 U.S.C. \u00a7 2901 et seq.)\n\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501"
+    },
+    {
+      "policy_name": "Fair-Lending-ECOA-Policy",
+      "section_id": "2.1",
+      "section_title": "Prohibited Bases Under ECOA/Regulation B",
+      "parent_section": "SECTION 2: PROHIBITED BASES FOR DISCRIMINATION",
+      "text": "The Bank shall not discriminate against any credit applicant on the basis of:\n- Race or color\n- Religion\n- National origin\n- Sex (including gender identity and sexual orientation)\n- Marital status\n- Age (provided the applicant has legal capacity to contract)\n- The applicant's receipt of income from public assistance programs\n- The applicant's exercise of rights under the Consumer Credit Protection Act\n- Familial status (FHA only \u2014 applicable to residential mortgage lending)\n- Disability (FHA only)"
+    },
+    {
+      "policy_name": "Fair-Lending-ECOA-Policy",
+      "section_id": "2.2",
+      "section_title": "Disparate Treatment",
+      "parent_section": "SECTION 2: PROHIBITED BASES FOR DISCRIMINATION",
+      "text": "The Bank shall not treat applicants differently based on any prohibited basis, whether intentionally or through facially neutral policies that have a disparate impact."
+    },
+    {
+      "policy_name": "Fair-Lending-ECOA-Policy",
+      "section_id": "2.3",
+      "section_title": "Discouragement of Applications",
+      "parent_section": "SECTION 2: PROHIBITED BASES FOR DISCRIMINATION",
+      "text": "The Bank shall not discourage applicants from applying for credit on any prohibited basis, including through:\n- Steering applicants to less favorable products\n- Providing less information or assistance\n- Expressing a preference or limitation based on prohibited characteristics\n\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501"
+    },
+    {
+      "policy_name": "Fair-Lending-ECOA-Policy",
+      "section_id": "3.1",
+      "section_title": "Uniform Application of Standards",
+      "parent_section": "SECTION 3: CREDIT UNDERWRITING STANDARDS",
+      "text": "The Bank shall apply the same underwriting criteria to all similarly situated applicants regardless of any prohibited basis."
+    },
+    {
+      "policy_name": "Fair-Lending-ECOA-Policy",
+      "section_id": "3.2",
+      "section_title": "Permitted Factors in Credit Decisions",
+      "parent_section": "SECTION 3: CREDIT UNDERWRITING STANDARDS",
+      "text": "The following factors are permitted in credit decisions:\n- Credit history and credit score\n- Income, employment, and assets\n- Debt-to-income ratio\n- Collateral value and loan-to-value ratio\n- Purpose of the loan"
+    },
+    {
+      "policy_name": "Fair-Lending-ECOA-Policy",
+      "section_id": "3.3",
+      "section_title": "Special Purpose Credit Programs (SPCP)",
+      "parent_section": "SECTION 3: CREDIT UNDERWRITING STANDARDS",
+      "text": "The Bank may offer Special Purpose Credit Programs to meet special social needs, provided such programs comply with Regulation B \u00a7 1002.8, including:\n- Written program plan\n- Specific class of persons to be benefited\n- Terms no more favorable than necessary\nBoard approval required before implementation of any SPCP."
+    },
+    {
+      "policy_name": "Fair-Lending-ECOA-Policy",
+      "section_id": "3.4",
+      "section_title": "Pricing Consistency",
+      "parent_section": "SECTION 3: CREDIT UNDERWRITING STANDARDS",
+      "text": "Loan pricing shall be based on objective, risk-based criteria documented in writing. Loan officers may deviate from standard pricing only within established exception procedures, subject to fair lending review.\n\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501"
+    },
+    {
+      "policy_name": "Fair-Lending-ECOA-Policy",
+      "section_id": "4.1",
+      "section_title": "Required Notices",
+      "parent_section": "SECTION 4: ADVERSE ACTION NOTICES",
+      "text": "The Bank shall provide written adverse action notices as required by ECOA and Regulation B within required timeframes:\n- Completed application: within 30 days\n- Incomplete application: within 30 days of receiving an incomplete application\n- Counteroffer not accepted: within 90 days"
+    },
+    {
+      "policy_name": "Fair-Lending-ECOA-Policy",
+      "section_id": "4.2",
+      "section_title": "Notice Content",
+      "parent_section": "SECTION 4: ADVERSE ACTION NOTICES",
+      "text": "Adverse action notices shall include:\n- Statement that credit was denied\n- Name and address of creditor\n- Principal reasons for adverse action (minimum 4, maximum specified by regulation)\n- ECOA notice (right to know reasons)\n- Credit score information (if applicable)\n- Credit reporting agency information (if applicable)"
+    },
+    {
+      "policy_name": "Fair-Lending-ECOA-Policy",
+      "section_id": "4.3",
+      "section_title": "Medical Information",
+      "parent_section": "SECTION 4: ADVERSE ACTION NOTICES",
+      "text": "The Bank shall not use medical information in credit decisions except as specifically permitted under Regulation B.\n\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501"
+    },
+    {
+      "policy_name": "Fair-Lending-ECOA-Policy",
+      "section_id": "5.1",
+      "section_title": "Data Collection Requirements",
+      "parent_section": "SECTION 5: HOME MORTGAGE DISCLOSURE ACT (HMDA) COMPLIANCE",
+      "text": "For covered mortgage loan applications, the Bank shall collect and record required HMDA data points including:\n- Applicant demographic information (ethnicity, race, sex, age, income)\n- Loan characteristics (amount, type, purpose, lien status)\n- Property information (location, type, value)\n- Action taken and date"
+    },
+    {
+      "policy_name": "Fair-Lending-ECOA-Policy",
+      "section_id": "5.2",
+      "section_title": "Data Integrity",
+      "parent_section": "SECTION 5: HOME MORTGAGE DISCLOSURE ACT (HMDA) COMPLIANCE",
+      "text": "The Bank shall maintain data quality controls to ensure HMDA data accuracy, including:\n- Automated data validation at point of entry\n- Annual data scrub process before LAR submission\n- Testing for data completeness and consistency"
+    },
+    {
+      "policy_name": "Fair-Lending-ECOA-Policy",
+      "section_id": "5.3",
+      "section_title": "Annual Reporting",
+      "parent_section": "SECTION 5: HOME MORTGAGE DISCLOSURE ACT (HMDA) COMPLIANCE",
+      "text": "The Bank shall submit its annual Loan Application Register (LAR) to the CFPB by March 1 each year for the prior calendar year.\n\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501"
+    },
+    {
+      "policy_name": "Fair-Lending-ECOA-Policy",
+      "section_id": "6.1",
+      "section_title": "Section 1071 Compliance",
+      "parent_section": "SECTION 6: SMALL BUSINESS LENDING DATA (SECTION 1071)",
+      "text": "[PLACEHOLDER \u2014 Section 1071 implementation rules pending final effective dates]\nThe Bank shall monitor CFPB rulemaking under Dodd-Frank Section 1071 regarding small business lending data collection and update this policy section upon final rule implementation."
+    },
+    {
+      "policy_name": "Fair-Lending-ECOA-Policy",
+      "section_id": "6.2",
+      "section_title": "Anticipated Requirements",
+      "parent_section": "SECTION 6: SMALL BUSINESS LENDING DATA (SECTION 1071)",
+      "text": "Section 1071 will require collection of demographic and credit information for covered small business credit applications, similar to HMDA for mortgage lending. The Bank's compliance date will be determined by its annual small business loan originations.\n\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501"
+    },
+    {
+      "policy_name": "Fair-Lending-ECOA-Policy",
+      "section_id": "7.1",
+      "section_title": "Annual Fair Lending Analysis",
+      "parent_section": "SECTION 7: FAIR LENDING MONITORING AND TESTING",
+      "text": "The Bank shall conduct an annual fair lending analysis including:\n- Statistical analysis of approval and denial rates by prohibited basis\n- Pricing analysis comparing similarly situated borrowers\n- Geographic analysis of lending patterns (CRA Assessment Area)\n- HMDA peer comparison"
+    },
+    {
+      "policy_name": "Fair-Lending-ECOA-Policy",
+      "section_id": "7.2",
+      "section_title": "Comparative File Review",
+      "parent_section": "SECTION 7: FAIR LENDING MONITORING AND TESTING",
+      "text": "At least annually, the Bank shall conduct a comparative file review of credit decisions to identify potential disparate treatment."
+    },
+    {
+      "policy_name": "Fair-Lending-ECOA-Policy",
+      "section_id": "7.3",
+      "section_title": "Mystery Shopping",
+      "parent_section": "SECTION 7: FAIR LENDING MONITORING AND TESTING",
+      "text": "The Bank may conduct periodic mystery shopping to test for potential discouragement of applicants.\n\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501"
+    },
+    {
+      "policy_name": "Fair-Lending-ECOA-Policy",
+      "section_id": "8.1",
+      "section_title": "Required Training",
+      "parent_section": "SECTION 8: TRAINING",
+      "text": "All consumer-facing employees, loan officers, and credit personnel shall receive fair lending training:\n- At hire: within 60 days\n- Annual refresher: each calendar year"
+    },
+    {
+      "policy_name": "Fair-Lending-ECOA-Policy",
+      "section_id": "8.2",
+      "section_title": "Training Topics",
+      "parent_section": "SECTION 8: TRAINING",
+      "text": "- Prohibited bases for discrimination\n- Recognizing and avoiding disparate treatment\n- HMDA data collection accuracy\n- Adverse action notice requirements\n- Special purpose credit programs\n\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\nPOLICY APPROVAL\n\nApproved: Chief Compliance Officer / Chief Credit Officer\nDate: January 1, 2026\nBoard Acknowledgment: January 15, 2026\n\nThis policy supersedes all prior fair lending policies.\nNext scheduled review: January 1, 2027"
+    },
+    {
+      "policy_name": "TRID-Mortgage-Disclosure-Policy",
+      "section_id": "1.1",
+      "section_title": "Purpose",
+      "parent_section": "SECTION 1: PURPOSE AND SCOPE",
+      "text": "This policy establishes First Community Bank's procedures for complying with the TILA-RESPA Integrated Disclosure (TRID) rule, which implements requirements under the Truth in Lending Act (TILA), the Real Estate Settlement Procedures Act (RESPA), and Regulation Z (12 C.F.R. Part 1026) and Regulation X (12 C.F.R. Part 1024)."
+    },
+    {
+      "policy_name": "TRID-Mortgage-Disclosure-Policy",
+      "section_id": "1.2",
+      "section_title": "Scope",
+      "parent_section": "SECTION 1: PURPOSE AND SCOPE",
+      "text": "This policy applies to all closed-end consumer credit transactions secured by real property, including:\n- Purchase money mortgages\n- Refinance loans\n- Construction loans (if applicable)\n- Home equity loans (not HELOCs \u2014 excluded from TRID)\n\nExcluded transactions:\n- Home Equity Lines of Credit (HELOCs) \u2014 subject to separate TILA disclosures\n- Reverse mortgages \u2014 subject to separate TILA requirements\n- Loans secured by vacant land (unless construction loan)\n- Commercial and investment property loans\n\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501"
+    },
+    {
+      "policy_name": "TRID-Mortgage-Disclosure-Policy",
+      "section_id": "2.1",
+      "section_title": "Triggering Events",
+      "parent_section": "SECTION 2: LOAN ESTIMATE REQUIREMENTS",
+      "text": "A Loan Estimate must be provided after receiving six pieces of information constituting an application:\n(1) Consumer's name\n(2) Consumer's income\n(3) Consumer's Social Security Number (for credit report)\n(4) Property address\n(5) Estimated value of the property\n(6) Loan amount"
+    },
+    {
+      "policy_name": "TRID-Mortgage-Disclosure-Policy",
+      "section_id": "2.2",
+      "section_title": "Loan Estimate Timing",
+      "parent_section": "SECTION 2: LOAN ESTIMATE REQUIREMENTS",
+      "text": "The Loan Estimate shall be:\n- Delivered or placed in mail no later than three business days after receiving an application\n- Received by the consumer no later than seven business days before consummation"
+    },
+    {
+      "policy_name": "TRID-Mortgage-Disclosure-Policy",
+      "section_id": "2.3",
+      "section_title": "Loan Estimate Content",
+      "parent_section": "SECTION 2: LOAN ESTIMATE REQUIREMENTS",
+      "text": "The Loan Estimate shall include:\n- General information (loan terms, projected payments, costs at closing)\n- Closing cost details (Loan Costs and Other Costs)\n- Calculating cash to close\n- Comparisons (APR, Total Interest Percentage)\n- Other considerations (appraisal, assumption, homeowner's insurance, late payments)\n- Contact information"
+    },
+    {
+      "policy_name": "TRID-Mortgage-Disclosure-Policy",
+      "section_id": "2.4",
+      "section_title": "Good Faith Tolerance Standards",
+      "parent_section": "SECTION 2: LOAN ESTIMATE REQUIREMENTS",
+      "text": "The Bank shall comply with the following tolerance standards:\n\nZero Tolerance Items (no increase permitted):\n- Transfer taxes\n- Fees paid to the creditor for required services with no choice\n- Third-party fees for services not on approved provider list\n- Recording fees\n\n10% Tolerance Items:\n- Recording fees (exception when aggregate tolerance applies)\n- Third-party fees for required services on approved provider list chosen by consumer\n- Prepaid interest, property insurance premiums, initial escrow payments\n- Charges for optional third-party services\n\nNo Tolerance Items (may change):\n- Prepaid interest\n- Property insurance premiums\n- Initial escrow payment amounts\n- Homeowners association dues (paid at closing)\n\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501"
+    },
+    {
+      "policy_name": "TRID-Mortgage-Disclosure-Policy",
+      "section_id": "3.1",
+      "section_title": "Closing Disclosure Timing",
+      "parent_section": "SECTION 3: CLOSING DISCLOSURE REQUIREMENTS",
+      "text": "The Closing Disclosure shall be:\n- Received by the consumer no later than three business days before consummation\n- For mailing purposes, presumed received three business days after placing in mail"
+    },
+    {
+      "policy_name": "TRID-Mortgage-Disclosure-Policy",
+      "section_id": "3.2",
+      "section_title": "Closing Disclosure Content",
+      "parent_section": "SECTION 3: CLOSING DISCLOSURE REQUIREMENTS",
+      "text": "The Closing Disclosure mirrors the Loan Estimate format and includes final figures for all costs, loan terms, and cash to close."
+    },
+    {
+      "policy_name": "TRID-Mortgage-Disclosure-Policy",
+      "section_id": "3.3",
+      "section_title": "Revised Closing Disclosure",
+      "parent_section": "SECTION 3: CLOSING DISCLOSURE REQUIREMENTS",
+      "text": "A revised Closing Disclosure is required if, before consummation:\n- APR becomes inaccurate (exceeds tolerance)\n- Loan product changes\n- Prepayment penalty is added\n\nA revised Closing Disclosure requires an additional three business day waiting period."
+    },
+    {
+      "policy_name": "TRID-Mortgage-Disclosure-Policy",
+      "section_id": "3.4",
+      "section_title": "Changes After Consummation",
+      "parent_section": "SECTION 3: CLOSING DISCLOSURE REQUIREMENTS",
+      "text": "Post-consummation corrections to Closing Disclosures shall be handled pursuant to Regulation Z \u00a7 1026.19(f)(2) procedures.\n\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501"
+    },
+    {
+      "policy_name": "TRID-Mortgage-Disclosure-Policy",
+      "section_id": "4.1",
+      "section_title": "Permissible Changed Circumstances",
+      "parent_section": "SECTION 4: REVISED LOAN ESTIMATE",
+      "text": "A revised Loan Estimate may be issued only upon occurrence of a valid changed circumstance:\n- Extraordinary event beyond the Bank's control\n- Information specific to the consumer/transaction that was inaccurate or changed\n- New information not previously available\n- Delay in settlement (under certain conditions)\n- Rate locks\n- Consumer requests changes to credit terms"
+    },
+    {
+      "policy_name": "TRID-Mortgage-Disclosure-Policy",
+      "section_id": "4.2",
+      "section_title": "Revised Loan Estimate Timing",
+      "parent_section": "SECTION 4: REVISED LOAN ESTIMATE",
+      "text": "A revised Loan Estimate shall be delivered within three business days of receiving information supporting a changed circumstance, and no later than four business days before consummation.\n\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501"
+    },
+    {
+      "policy_name": "TRID-Mortgage-Disclosure-Policy",
+      "section_id": "5.1",
+      "section_title": "Escrow Disclosure Requirements",
+      "parent_section": "SECTION 5: ESCROW DISCLOSURES AND ACCOUNT MANAGEMENT",
+      "text": "For escrow accounts, the Bank shall provide:\n- Initial Escrow Account Disclosure Statement at consummation\n- Annual Escrow Account Analysis and Statement"
+    },
+    {
+      "policy_name": "TRID-Mortgage-Disclosure-Policy",
+      "section_id": "5.2",
+      "section_title": "Escrow Account Computation Year",
+      "parent_section": "SECTION 5: ESCROW DISCLOSURES AND ACCOUNT MANAGEMENT",
+      "text": "The Bank shall conduct an annual escrow analysis for each escrowed loan to determine:\n- Whether a surplus, shortage, or deficiency exists\n- The adjusted monthly escrow payment for the coming year"
+    },
+    {
+      "policy_name": "TRID-Mortgage-Disclosure-Policy",
+      "section_id": "5.3",
+      "section_title": "Surplus, Shortage, Deficiency",
+      "parent_section": "SECTION 5: ESCROW DISCLOSURES AND ACCOUNT MANAGEMENT",
+      "text": "- Surplus \u2265 $50: Refund within 30 days of analysis\n- Shortage: May collect over 12 months if shortage \u2264 1/12 monthly payment; otherwise spread over longer period\n- Deficiency: Bank may collect in two months; shortage notice procedures apply\n\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501"
+    },
+    {
+      "policy_name": "TRID-Mortgage-Disclosure-Policy",
+      "section_id": "6.1",
+      "section_title": "Loan Origination System Configuration",
+      "parent_section": "SECTION 6: LOAN OFFICER AND PROCESSOR PROCEDURES",
+      "text": "The Bank's loan origination system (LOS) shall be configured to:\n- Automatically generate Loan Estimates upon application receipt\n- Calculate and monitor tolerance thresholds\n- Generate alerts when revised disclosures may be required\n- Track all disclosure delivery dates and methods"
+    },
+    {
+      "policy_name": "TRID-Mortgage-Disclosure-Policy",
+      "section_id": "6.2",
+      "section_title": "Loan Officer Responsibilities",
+      "parent_section": "SECTION 6: LOAN OFFICER AND PROCESSOR PROCEDURES",
+      "text": "Loan officers are responsible for:\n- Collecting complete application information before triggering disclosures\n- Not discouraging applications based on protected characteristics\n- Accurately estimating fees and costs on the Loan Estimate\n- Documenting changed circumstances before issuing revised Loan Estimates"
+    },
+    {
+      "policy_name": "TRID-Mortgage-Disclosure-Policy",
+      "section_id": "6.3",
+      "section_title": "Closing/Disclosure Coordinator",
+      "parent_section": "SECTION 6: LOAN OFFICER AND PROCESSOR PROCEDURES",
+      "text": "The Bank shall designate a TRID compliance coordinator responsible for:\n- Reviewing all Closing Disclosures before delivery\n- Monitoring consummation dates and waiting periods\n- Maintaining a disclosure log for each loan\n- Resolving tolerance cure procedures\n\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501"
+    },
+    {
+      "policy_name": "TRID-Mortgage-Disclosure-Policy",
+      "section_id": "7.1",
+      "section_title": "Cure of Good Faith Violations",
+      "parent_section": "SECTION 7: TOLERANCE CURE PROCEDURES",
+      "text": "The Bank may cure a violation of the good faith requirement by refunding to the consumer the amount by which the tolerance was exceeded, at or before consummation or within 60 calendar days after consummation."
+    },
+    {
+      "policy_name": "TRID-Mortgage-Disclosure-Policy",
+      "section_id": "7.2",
+      "section_title": "Cure Documentation",
+      "parent_section": "SECTION 7: TOLERANCE CURE PROCEDURES",
+      "text": "All tolerance cures shall be documented, including:\n- Original and actual fee amounts\n- Cure amount\n- Date of refund\n- Method of refund\n\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501"
+    },
+    {
+      "policy_name": "TRID-Mortgage-Disclosure-Policy",
+      "section_id": "8.1",
+      "section_title": "Retention Requirements",
+      "parent_section": "SECTION 8: RECORDKEEPING",
+      "text": "The Bank shall retain all TRID-related records for three years from the date of consummation or from the date of disclosures (whichever is longer), including:\n- All versions of Loan Estimates and Closing Disclosures\n- Evidence of delivery (delivery confirmation, mailing receipts)\n- Documentation of changed circumstances for revised Loan Estimates\n- Escrow account disclosures and analyses\n\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501"
+    },
+    {
+      "policy_name": "TRID-Mortgage-Disclosure-Policy",
+      "section_id": "9.1",
+      "section_title": "Required Training",
+      "parent_section": "SECTION 9: TRAINING AND COMPLIANCE TESTING",
+      "text": "All mortgage loan officers, processors, closers, and compliance staff shall receive TRID training:\n- At hire: within 30 days\n- Annual refresher: each calendar year\n- Regulatory updates: within 90 days of effective date"
+    },
+    {
+      "policy_name": "TRID-Mortgage-Disclosure-Policy",
+      "section_id": "9.2",
+      "section_title": "Compliance Testing",
+      "parent_section": "SECTION 9: TRAINING AND COMPLIANCE TESTING",
+      "text": "The Bank shall conduct quarterly file reviews of closed mortgage loans to test:\n- Timely delivery of Loan Estimates and Closing Disclosures\n- Accuracy of disclosures\n- Appropriate use of revised disclosures\n- Tolerance compliance\n\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\nPOLICY APPROVAL\n\nApproved: Chief Compliance Officer / Chief Lending Officer\nDate: January 1, 2026\nBoard Acknowledgment: January 15, 2026\n\nThis policy supersedes all prior TRID/RESPA/TILA disclosure policies.\nNext scheduled review: January 1, 2027"
+    }
+  ]
+}
