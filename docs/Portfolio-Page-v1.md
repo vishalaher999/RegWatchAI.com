@@ -67,7 +67,12 @@ along the way.
 
 ### Try It
 
-- API docs (when running): `/docs` (Swagger UI) via `uvicorn api.main:app --reload`
+- **Live API:** [regwatch-api-qey7.onrender.com](https://regwatch-api-qey7.onrender.com) —
+  [Swagger UI](https://regwatch-api-qey7.onrender.com/docs), seeded with real
+  pipeline output (19 documents, 54 HIGH findings, 3 tasks). Free-tier Render
+  instance — first request after idling takes ~30-60s to wake up.
+- Source: [github.com/vishalaher999/RegWatchAI.com](https://github.com/vishalaher999/RegWatchAI.com)
+  (tagged `v1.0`)
 - Demo walkthrough script: `docs/Demo-Walkthrough-Script-v1.md`
 - Deployment guide: `docs/Deployment-Guide-v1.md`
 

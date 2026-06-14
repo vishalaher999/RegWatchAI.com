@@ -244,14 +244,20 @@ would actually read — came back as:
 | Tasks created (F4) | 3 |
 | Override rate | 0.0% |
 
-Two things are worth being honest about here, in keeping with this build's
+Following the local smoke test, the same Docker image was deployed to
+Render via the `render.yaml` blueprint —
+**[regwatch-api-qey7.onrender.com](https://regwatch-api-qey7.onrender.com)**
+(Swagger UI at `/docs`). The first build failed (`anthropic==0.84.0`
+conflicted with `langchain-anthropic`'s `>=0.96.0` requirement — fixed by
+bumping the pin); the second build deployed successfully and returns the
+same 90-day compliance report shown above, served from a committed
+"demo seed" copy of `regwatch.db` and `data/f3_indexes/` (synthetic/mock
+data only, per CLAUDE.md's public-data-only constraint — these are normally
+gitignored as regenerable artifacts).
+
+One thing worth being honest about here, in keeping with this build's
 "honest gaps" pattern:
 
-- **This was a local smoke test, not a public deployment.** No live URL
-  exists — `docker --version` is unavailable in this build environment, so
-  the Render/Railway deploy described in `docs/Deployment-Guide-v1.md`
-  remains unverified end-to-end. "Live" means "the FastAPI app runs and
-  serves real data from the dev DB," not "reachable from the internet."
 - **Override rate is 0.0% because only 3 tasks have ever been created** —
   not because the agent is perfectly calibrated. A meaningful override-rate
   signal (per `docs/Override-Rate-Dashboard-v1.md`) requires a larger sample
